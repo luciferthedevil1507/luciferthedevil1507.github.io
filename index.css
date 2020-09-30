@@ -5,9 +5,9 @@ body{
 h1{
   font-family: 'Roboto', sans-serif;
 color:rgb(219, 255, 13);
-font-size:40px;
+font-size:42px;
 margin: auto;
-border:5px dashed yellow;
+border:5px dashed orange;
 text-align: center;
 width: 60%;
 }
