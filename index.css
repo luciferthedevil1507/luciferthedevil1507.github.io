@@ -1,15 +1,7 @@
+
 body{
   background:rgb(32,37,51);
   margin: auto;
-}
-h1{
-  font-family: 'Roboto', sans-serif;
-color:rgb(219, 255, 13);
-font-size:42px;
-margin: auto;
-border:5px dashed orange;
-text-align: center;
-width: 60%;
 }
 #top{
   width: 30%;
@@ -23,7 +15,6 @@ width: 60%;
   display: block;
   text-align: center;
   margin: auto;
-
 }
 #top3{
   height: 500px;
@@ -31,7 +22,6 @@ width: 60%;
   display: block;
   text-align: center;
   margin: auto;
-
 }
 #top4{
 height: 500px;
@@ -60,7 +50,7 @@ margin: auto;
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
-    border: 5px solid orange;
+  border: 5px solid orange;
 }
 #p3{
   font-family: 'Roboto', sans-serif;
@@ -79,13 +69,30 @@ margin: auto;
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
-    border: 5px solid orange;
-    margin-top: 50px;
-
+  border: 5px solid orange;
+  margin-top: 50px;
 }
 #img21{
   display: block;
   text-align: center;
   margin: auto;
-
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color:rgb(219, 255, 13);
+  font-size:42px;
+  margin: auto;
+  border:2px dashed orange;
+  text-align: center;
+  width: 60%;
+  background-color: red;
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+@keyframes myfirst {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:10px; top:10px;}
+  50%  {color:blue; left:0px; top:0px;}
+  75%  {color:green; left:10px; top:10px;}
+  100% {color:red; left:0px; top:0px;}
 }
