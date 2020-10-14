@@ -78,6 +78,16 @@ margin: auto;
   text-align: center;
   margin: auto;
 }
+
+#p9{
+  font-family: sans-serif;
+  color:blue;
+  background: white;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 2;
+  text-align: center;
+  border: 5px solid red;
 h1 {
   font-family: 'Roboto', sans-serif;
   color:rgb(219, 255, 13);
