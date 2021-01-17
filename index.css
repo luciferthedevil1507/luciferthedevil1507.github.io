@@ -1,8 +1,8 @@
 
 body{
-  background:rgb(32,37,52);
+  background:rgb(32,37,51);
   margin: auto;
-  font-family:verdana;
+  
 }
 #top{
   width: 30%;
@@ -25,7 +25,7 @@ body{
   margin: auto;
 }
 #top4{
-height: 499px;
+height: 500px;
 width: 600px;
 display: block;
 text-align: center;
